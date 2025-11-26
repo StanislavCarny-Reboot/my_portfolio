@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug main.py (uv)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "python": "${workspaceFolder}/.venv/bin/python3",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "justMyCode": true,
+            "env": {}
+        },
+        {
+            "name": "Python: Debug Current File (uv)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "python": "${workspaceFolder}/.venv/bin/python3",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Debug main.py (uv - Stop on Entry)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "python": "${workspaceFolder}/.venv/bin/python3",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": true,
+            "justMyCode": true,
+            "env": {}
+        }
+    ]
+}

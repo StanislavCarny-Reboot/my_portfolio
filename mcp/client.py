@@ -4,7 +4,8 @@ from pydantic_ai.mcp import MCPServerStreamableHTTP
 
 
 server = MCPServerStreamableHTTP("http://localhost:8000/mcp")
-agent = Agent("openai:gpt-4.1", toolsets=[server])
+server2 = MCPServerStreamableHTTP("http://localhost:8001/mcp")
+agent = Agent("openai:gpt-4.1", toolsets=[server, server2])
 
 
 message_history = []
