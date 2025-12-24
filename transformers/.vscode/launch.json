@@ -35,6 +35,18 @@
             "stopOnEntry": true,
             "justMyCode": true,
             "env": {}
+        },
+        {
+            "name": "Python: Debug karphaty.py (uv)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/karphaty.py",
+            "python": "${workspaceFolder}/.venv/bin/python3",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "justMyCode": true,
+            "env": {}
         }
     ]
 }
