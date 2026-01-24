@@ -4,10 +4,11 @@ from typing_extensions import Self
 # PROS
 # create for build complex object with a lot of parameters
 # separate construction from logic
-# 5 + optional fields and you expect more 
+# 5 + optional fields and you expect more
 
 # CONS
 # boiler plate, overkill for simple functions where you just need a couple of parameters
+
 
 @dataclass(frozen=True)
 class HTMLPage:
